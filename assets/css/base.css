@@ -14,7 +14,9 @@
   --clr-gray-label: #898989;
   --clr-gray-placeholder: #cfcfcf;
   --clr-gray-placeholder-hover: #adadad;
+  --clr-gray-placeholder-disabled: #afadad;
   --clr-gray-label-disabled: #e4e4e4;
+
   --clr-orange: #ffb050;
   --clr-red-input: #de0000;
   --clr-red-message: #ce0303;

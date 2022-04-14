@@ -10,20 +10,24 @@ input {
 }
 
 .label-div {
-  position: relative;
   color: var(--clr-gray-label);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
 }
 
 .label {
-  position: absolute;
+  display: contents;
 }
 
 .input {
   padding: 1rem;
   border-radius: 8px;
-  margin-top: 0.5rem;
   color: var(--clr-gray-placeholder);
   border: 1px solid transparent;
+  width: 100%;
+  max-width: 238px;
 }
 
 .input:hover {
@@ -40,8 +44,13 @@ input {
   border: 1px solid var(--clr-red-input);
 }
 
-.input.input--disabled {
+.input--disabled {
   border: 1px solid transparent;
-  background-color: transparent;
-  color: var(--clr-gray-label-disabled);
+  background-color: var(--clr-gray-label-disabled);
+  color: var(--clr-gray-placeholder-disabled);
+}
+
+.label--error {
+  color: var(--clr-red-input);
+  font-size: var(--fs-smaller);
 }
