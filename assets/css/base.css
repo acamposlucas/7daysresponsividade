@@ -6,9 +6,11 @@
   --clr-blue-600: #4786f0;
   --clr-blue-700: #4373dc;
   --clr-blue-800: #4062c9;
+  --clr-blue-box-shadow: rgba(72, 148, 255, 0.1);
   --clr-gray: #a3a3a3;
   --clr-gray-btn: #b9b9b9;
   --clr-gray-btn-text: #888888;
+  --clr-gray-border: #ececec;
   --clr-gray-label: #898989;
   --clr-gray-placeholder: #afadad;
   --clr-orange: #ffb050;
@@ -21,7 +23,17 @@
   --fs-large: 1.375rem;
   --fs-normal: 1rem;
   --fs-small: 0.875rem;
-  --fs-samller: 0.75rem;
+  --fs-smaller: 0.75rem;
+
+  --fw-bold: 700;
+  --fw-medium: 500;
+  --fw-regular: 400;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
 html {
