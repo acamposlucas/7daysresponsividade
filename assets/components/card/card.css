@@ -1,0 +1,56 @@
+.card {
+  background-color: var(--clr-white);
+  border-radius: 8px;
+  backdrop-filter: blur(22px);
+}
+
+.card__content {
+  border-bottom: 1px solid var(--clr-black-01);
+  padding: 1rem;
+}
+
+.card__img {
+  aspect-ratio: 1;
+  border-radius: 100%;
+  width: 24px;
+}
+
+.card__name {
+  color: var(--clr-black);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+}
+
+.card__tag {
+  color: var(--clr-gray);
+  font-size: var(--fs-smaller);
+}
+
+.card__tag:before {
+  content: "";
+  background-image: url(../../icons/cam.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+  height: 10px;
+  margin-right: 0.5rem;
+  width: 16px;
+}
+
+.card__tag-message {
+  aspect-ratio: 1;
+  background-color: var(--clr-gray-tag-bg);
+  background-image: url(../../icons/chat1.svg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: center center;
+  border-radius: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+  width: 32px;
+}
+
+.card__hour {
+  font-size: var(--fs-smallest);
+}

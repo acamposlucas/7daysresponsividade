@@ -13,13 +13,16 @@
 
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/flex.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/components/button/button.css" />
     <link rel="stylesheet" href="assets/components/input/input.css" />
+    <link rel="stylesheet" href="assets/components/card/card.css" />
 
     <title>7 days of code - Responsividade</title>
   </head>
-  <body>
+  <body style="padding: 1rem">
+    <!-- BOTÃO -->
     <div class="components">
       <button class="btn btn--primary">Botão</button>
       <button class="btn btn--secondary">Botão</button>
@@ -27,7 +30,7 @@
       <button class="btn btn--orange">Botão</button>
       <button class="btn btn--transparent">Botão</button>
     </div>
-
+    <!-- LABEL e INPUTS -->
     <div>
       <div class="label-div">
         <label class="label" for=""
@@ -48,7 +51,7 @@
         </label>
       </div>
     </div>
-
+    <!-- SELECT -->
     <div>
       <label for="" class="label">
         <select
@@ -64,6 +67,30 @@
         </select>
         <span class="label--error">Você não selecionou uma opção</span>
       </label>
+    </div>
+
+    <div class="card">
+      <div
+        class="flex-set flex--content-between flex--align-content-start card__content"
+      >
+        <div class="flex-set flex--gap-1rem">
+          <img src="./assets/img/perfil-2.png" alt="" class="card__img" />
+          <div class="flex-set flex--column flex--gap-minimal">
+            <h1 class="card__name">Luciana Dias</h1>
+            <span class="card__tag">Consulta remota</span>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="card__tag-message"
+          aria-label="Botão para enviar mensagem"
+        ></a>
+      </div>
+      <div>
+        <span class="card__hour">14:00 - 15:00 (1 hora)</span>
+        <button class="btn btn--orange">Ligar por vídeo</button>
+        <button class="btn btn--transparent">Ligar por áudio</button>
+      </div>
     </div>
   </body>
 </html>

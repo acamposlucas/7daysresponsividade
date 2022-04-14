@@ -1,5 +1,6 @@
 :root {
   --clr-black: #464646;
+  --clr-black-01: #46464610;
   --clr-blue-300: #70b4ff;
   --clr-blue-400: #57a4ff;
   --clr-blue-500: #4894ff;
@@ -8,6 +9,7 @@
   --clr-blue-800: #4062c9;
   --clr-blue-box-shadow: rgba(72, 148, 255, 0.1);
   --clr-gray: #a3a3a3;
+  --clr-gray-tag-bg: #f6f6f6;
   --clr-gray-btn: #b9b9b9;
   --clr-gray-btn-text: #888888;
   --clr-gray-border: #ececec;
