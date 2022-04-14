@@ -12,7 +12,9 @@
   --clr-gray-btn-text: #888888;
   --clr-gray-border: #ececec;
   --clr-gray-label: #898989;
-  --clr-gray-placeholder: #afadad;
+  --clr-gray-placeholder: #cfcfcf;
+  --clr-gray-placeholder-hover: #adadad;
+  --clr-gray-label-disabled: #e4e4e4;
   --clr-orange: #ffb050;
   --clr-red-input: #de0000;
   --clr-red-message: #ce0303;
@@ -39,4 +41,8 @@
 html {
   font-family: var(--ff-montserrat);
   font-size: 16px;
+}
+
+body {
+  background-color: #dddddd;
 }

@@ -1,0 +1,47 @@
+input {
+  border: none;
+  outline: none;
+}
+
+.label,
+.input {
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-regular);
+}
+
+.label-div {
+  position: relative;
+  color: var(--clr-gray-label);
+}
+
+.label {
+  position: absolute;
+}
+
+.input {
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  color: var(--clr-gray-placeholder);
+  border: 1px solid transparent;
+}
+
+.input:hover {
+  border: 1px solid var(--clr-gray-placeholder);
+  color: var(--clr-gray-placeholder-hover);
+}
+
+.input:focus {
+  border: 1px solid transparent;
+  outline: 2px solid var(--clr-blue-500);
+}
+
+.input--erro {
+  border: 1px solid var(--clr-red-input);
+}
+
+.input.input--disabled {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: var(--clr-gray-label-disabled);
+}
