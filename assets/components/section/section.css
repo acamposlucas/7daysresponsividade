@@ -1,0 +1,7 @@
+.section__header {
+  padding-bottom: 0.5rem;
+}
+.section__date {
+  color: var(--clr-black);
+  font-weight: var(--fw-bold);
+}
