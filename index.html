@@ -68,28 +68,60 @@
         <span class="label--error">Você não selecionou uma opção</span>
       </label>
     </div>
-
+    <!-- CARD -->
+    <!-- CONSULTA REMOTA -->
     <div class="card">
       <div
-        class="flex-set flex--content-between flex--align-content-start card__content"
+        class="flex-set flex--content-between flex--align-content-start card__upperContent"
       >
         <div class="flex-set flex--gap-1rem">
           <img src="./assets/img/perfil-2.png" alt="" class="card__img" />
           <div class="flex-set flex--column flex--gap-minimal">
             <h1 class="card__name">Luciana Dias</h1>
-            <span class="card__tag">Consulta remota</span>
+            <span class="card__tag card__tag--cam">Consulta remota</span>
           </div>
         </div>
         <a
           href="#"
-          class="card__tag-message"
+          class="card__link-message"
           aria-label="Botão para enviar mensagem"
         ></a>
       </div>
-      <div>
+      <div class="card__lowerContent flex-set flex--column flex--gap-minimal">
         <span class="card__hour">14:00 - 15:00 (1 hora)</span>
-        <button class="btn btn--orange">Ligar por vídeo</button>
-        <button class="btn btn--transparent">Ligar por áudio</button>
+        <div
+          class="flex-set flex--align-content-between flex--content-between flex--gap-1rem"
+        >
+          <button class="btn btn--orange">Ligar por vídeo</button>
+          <button class="btn btn--transparent">Ligar por áudio</button>
+        </div>
+      </div>
+    </div>
+    <!-- CONSULTA LOCAL -->
+    <div class="card">
+      <div
+        class="flex-set flex--content-between flex--align-content-start card__upperContent"
+      >
+        <div class="flex-set flex--gap-1rem">
+          <img src="./assets/img/perfil-2.png" alt="" class="card__img" />
+          <div class="flex-set flex--column flex--gap-minimal">
+            <h1 class="card__name">Luciana Dias</h1>
+            <span class="card__tag card__tag--local">Consulta no local</span>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="card__link-message"
+          aria-label="Botão para enviar mensagem"
+        ></a>
+      </div>
+      <div class="card__lowerContent flex-set flex--column flex--gap-minimal">
+        <span class="card__hour">14:00 - 15:00 (1 hora)</span>
+        <div
+          class="flex-set flex--align-content-between flex--content-between flex--gap-1rem"
+        >
+          <button class="btn btn--primary btn--address">Ver endereço</button>
+        </div>
       </div>
     </div>
   </body>

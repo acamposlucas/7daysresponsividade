@@ -4,15 +4,19 @@
   backdrop-filter: blur(22px);
 }
 
-.card__content {
-  border-bottom: 1px solid var(--clr-black-01);
+.card__upperContent,
+.card__lowerContent {
   padding: 1rem;
+}
+
+.card__upperContent {
+  border-bottom: 1px solid var(--clr-black-01);
 }
 
 .card__img {
   aspect-ratio: 1;
   border-radius: 100%;
-  width: 24px;
+  height: 32px;
 }
 
 .card__name {
@@ -28,17 +32,24 @@
 
 .card__tag:before {
   content: "";
-  background-image: url(../../icons/cam.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   display: inline-block;
-  height: 10px;
+  height: 14px;
   margin-right: 0.5rem;
-  width: 16px;
+  width: 14px;
 }
 
-.card__tag-message {
+.card__tag--cam:before {
+  background-image: url(../../icons/cam.svg);
+}
+
+.card__tag--local:before {
+  background-image: url(../../icons/local.svg);
+}
+
+.card__link-message {
   aspect-ratio: 1;
   background-color: var(--clr-gray-tag-bg);
   background-image: url(../../icons/chat1.svg);
@@ -48,9 +59,9 @@
   border-radius: 100%;
   display: inline-block;
   padding: 0.5rem;
-  width: 32px;
+  height: 32px;
 }
 
 .card__hour {
-  font-size: var(--fs-smallest);
+  font-size: var(--fs-smaller);
 }
