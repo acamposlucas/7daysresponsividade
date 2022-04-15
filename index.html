@@ -20,10 +20,36 @@
     <link rel="stylesheet" href="assets/components/card/card.css" />
     <link rel="stylesheet" href="assets/components/hero/hero.css" />
     <link rel="stylesheet" href="assets/components/section/section.css" />
+    <link
+      rel="stylesheet"
+      href="assets/components/floatingbutton/buttonFloating.css"
+    />
 
     <title>7 days of code - Responsividade</title>
   </head>
   <body style="padding: 1rem">
+    <!-- FLOATING BUTTON -->
+    <div>
+      <nav class="floating__nav">
+        <ul class="floating__list">
+          <li class="floating__list__item">
+            <button href="#" class="btn__floating"></button>
+          </li>
+          <li class="floating__list__item flex-set flex--align-items-center">
+            <span class="floating__list__description"
+              >Nova consulta por vídeo</span
+            >
+            <button class="btn__floating btn__floating--cam"></button>
+          </li>
+          <li class="floating__list__item flex-set flex--align-items-center">
+            <span class="floating__list__description"
+              >Nova consulta na casa do paciente</span
+            >
+            <button class="btn__floating btn__floating--local"></button>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <!-- BOTÃO -->
     <div class="components">
       <button class="btn btn--primary">Botão</button>
