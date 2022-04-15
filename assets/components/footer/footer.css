@@ -1,0 +1,50 @@
+.footer {
+  background-color: var(--clr-white);
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__list__link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--clr-gray);
+}
+
+.footer__list__link:before {
+  aspect-ratio: 1;
+  content: "";
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  filter: invert(27%) sepia(2%) saturate(7%) hue-rotate(349deg) brightness(92%)
+    contrast(89%);
+  height: 20px;
+}
+
+.footer__list__link--calendar:before {
+  background-image: url(../../icons/calendar.svg);
+}
+.footer__list__link--clients:before {
+  background-image: url(../../icons/people.svg);
+}
+
+.footer__list__link--papers:before {
+  background-image: url(../../icons/verticalbar.svg);
+}
+
+.footer__list__link--menu:before {
+  background-image: url(../../icons/hamburger.svg);
+}
+
+.footer__list__link:focus:before,
+.footer__list__link:focus {
+  filter: invert(77%) sepia(64%) saturate(6688%) hue-rotate(197deg)
+    brightness(101%) contrast(101%);
+}

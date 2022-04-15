@@ -6,9 +6,17 @@
   gap: 1rem;
   width: fit-content;
   position: fixed;
-  bottom: 20px;
+  bottom: 100px;
   right: 20px;
   z-index: 100;
+}
+
+.floating__list__item {
+  display: none;
+}
+
+.floating__list__item:first-child {
+  display: block;
 }
 
 .btn__floating {
@@ -31,7 +39,6 @@
 .btn__floating--cam,
 .btn__floating--local {
   background-size: 24px 24px;
-  visibility: hidden;
 }
 
 .btn__floating--cam {
@@ -50,5 +57,4 @@
   height: fit-content;
   margin-right: 1rem;
   padding: 2px 8px;
-  visibility: hidden;
 }
