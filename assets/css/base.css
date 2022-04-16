@@ -8,6 +8,7 @@
   --clr-blue-700: #4373dc;
   --clr-blue-800: #4062c9;
   --clr-blue-box-shadow: rgba(72, 148, 255, 0.1);
+  --clr-bg: linear-gradient(165.96deg, #f8f4ff 0%, #eff0f4 100%);
   --clr-gray: #a3a3a3;
   --clr-gray-tag-bg: #f6f6f6;
   --clr-gray-btn: #b9b9b9;
@@ -48,5 +49,5 @@ html {
 }
 
 body {
-  background-color: #dddddd;
+  background: var(--clr-bg);
 }
