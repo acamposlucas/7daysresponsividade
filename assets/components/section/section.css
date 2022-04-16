@@ -1,11 +1,32 @@
 .section {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
 }
 
 .section__header {
   padding-bottom: 0.5rem;
 }
-.section__date {
+
+.section__title {
   color: var(--clr-black);
   font-weight: var(--fw-bold);
+}
+
+.section--container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 767px) {
+  .section--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
