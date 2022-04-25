@@ -29,7 +29,6 @@
   display: block;
 }
 
-
 .floating__list__item:first-child {
   display: block;
 }
@@ -72,4 +71,10 @@
   height: fit-content;
   margin-right: 1rem;
   padding: 2px 8px;
+}
+
+@media (min-width: 1440px) {
+  .floating__nav {
+    display: none;
+  }
 }
