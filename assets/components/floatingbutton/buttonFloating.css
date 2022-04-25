@@ -11,9 +11,18 @@
   z-index: 100;
 }
 
-.floating__list__item {
+/* .floating__list__item {
+  display: none;
+} */
+
+.floating__hidden__item[data-visible="false"] {
   display: none;
 }
+
+.floating__hidden__item[data-visible="true"] {
+  display: block;
+}
+
 
 .floating__list__item:first-child {
   display: block;

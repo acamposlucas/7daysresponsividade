@@ -406,15 +406,15 @@
       <nav class="floating__nav">
         <ul class="floating__list">
           <li class="floating__list__item">
-            <button href="#" class="btn__floating"></button>
+            <button href="#" class="btn__floating" id="floatbtn"></button>
           </li>
-          <li class="floating__list__item flex-set flex--align-items-center">
+          <li class="floating__list__item flex-set flex--align-items-center floating__hidden__item" data-visible="false">
             <span class="floating__list__description"
               >Nova consulta por vídeo</span
             >
             <button class="btn__floating btn__floating--cam"></button>
           </li>
-          <li class="floating__list__item flex-set flex--align-items-center">
+          <li class="floating__list__item flex-set flex--align-items-center floating__hidden__item" data-visible="false">
             <span class="floating__list__description"
               >Nova consulta na casa do paciente</span
             >
@@ -425,5 +425,6 @@
     </div>
 
     <script src="./assets/js/footer.js"></script>
+    <script src="./assets/js/btn.js"></script>
   </body>
 </html>
