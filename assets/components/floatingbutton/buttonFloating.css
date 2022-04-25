@@ -1,3 +1,13 @@
+.floating-modal {
+  background-color: black;
+  display: none;
+  height: 100vh;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
 .floating__list {
   display: flex;
   flex-direction: column-reverse;
@@ -10,10 +20,6 @@
   right: 20px;
   z-index: 100;
 }
-
-/* .floating__list__item {
-  display: none;
-} */
 
 .floating__hidden__item[data-visible="false"] {
   display: none;
